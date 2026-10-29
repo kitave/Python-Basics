@@ -5,22 +5,28 @@ def greet():
 def greeting(name):
     print(f"Hello {name}")
 
+
 greeting("Ann")
+
 
 def volume_cylinder(radius, height):
     v = 22 / 7 * radius ** 2 * height
     print(round(v, 2))
 
+
 volume_cylinder(10, 20)
+
 
 def volume_cylinder_better(radius, height):
     v = 22 / 7 * radius ** 2 * height
     return v
 
+
 def volume_surface(radius, height):
     v = 22 / 7 * radius ** 2 * height
     a = 22 / 7 * radius ** 2 * 2 + 22 / 7 * radius * 2 * height
     return v, a
+
 
 result = volume_cylinder_better(6.5, 8.9)
 print(result)
@@ -35,7 +41,8 @@ print(f"Volume is {volume} and area is {area}")
 v, a = volume_surface(height=20, radius=10)
 print(f"Volume is {v} and area is {a}")
 
-#default parameters
+
+# default parameters
 def divide(a, b, should_round=False):
     res = a / b
     if should_round == True:
@@ -45,6 +52,3 @@ def divide(a, b, should_round=False):
 
 
 print(divide(9, 5.11, True))
-
-
-
