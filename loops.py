@@ -1,6 +1,15 @@
+# for nums in range(1,11):
+#     print(nums)
+
+num = 0
+while num < 10:
+    print (num)
+    num +=1
+
+
 scores = [9, 56, 7, 34, 96, 30]
 for s in scores:
-    if s >= 50 and s <= 70:
+    if (s >= 50 and s <= 70) or s>90:
         print(s)
 
 people = [{"name": "Emerald Bowen", "email": "ullamcorper.nisl@yahoo.org", "country": "New Zealand", "age": 19},
