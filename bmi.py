@@ -10,18 +10,17 @@ height = input("Enter your height: ")
 
 w = float(weight)
 h = float(height)
-bmi = w/h**2
+bmi = w / h ** 2
 
-if bmi<18.5:
+if bmi < 18.5:
     print("Underweight")
 elif 18.5 <= bmi <= 24.9:
     print("Normal")
-elif bmi>=25.0 and bmi <=29.9:
+elif bmi >= 25.0 and bmi <= 29.9:
     print("Overweight")
-elif bmi>=30.0 and bmi <=34.9:
+elif bmi >= 30.0 and bmi <= 34.9:
     print("Obese Class 1")
-elif bmi>=35.0 and bmi <=39.9:
+elif bmi >= 35.0 and bmi <= 39.9:
     print("Obese Class 2")
 else:
     print("Obese Class 3")
-

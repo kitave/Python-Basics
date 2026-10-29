@@ -6,10 +6,10 @@ age = input("Enter the  age")
 
 if not age.isnumeric():
     print("Invalid age")
-    #terminate
+    # terminate
     os._exit(0)
 
-if int (age) > 18:
+if int(age) > 18:
     print(name + " is an Adult")
 else:
     print("Child")
