@@ -31,6 +31,9 @@ def fancy_function(name, *nums, **kwargs):
     print(nums)
     print(kwargs)
 
+def my_function(a:int ,b:float):
+    return a/b
+
 
 build_portfolio(age=100, name="Jane", profession="programming", gender="female")
 
